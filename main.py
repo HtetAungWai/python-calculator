@@ -4,14 +4,6 @@ def add(num1, num2):
     result = num1+ num2
     print("The result is:", result)
 
-def divide(num1,num2):
-    result= num1/num2
-    print("The result is:",result)
-
-def modulo(num1,num2):
-    result= num1%num2
-    print("The result is :", result) 
-
 def subtract(num1,num2):
     result=num1-num2
     print("The result is: ",result)
@@ -37,6 +29,3 @@ def main():
         divide(user_input1, user_input2)
     elif user_operation == "modulo":
         modulo(user_input1, user_input2)
-
-
-main()
